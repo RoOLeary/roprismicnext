@@ -45,7 +45,8 @@
           "blocks": 1
         }
       }
-    }
+    },
+    "blog": {}
   },
   "slices": {
     "Text": {
