@@ -80,7 +80,7 @@ const Article = ({ article }) => {
   );
 };
 
-const Blog = ({ articles, navigation, settings }) => {
+const Posts = ({ articles, navigation, settings }) => {
   return (
     <Layout
       withHeaderDivider={false}
@@ -91,6 +91,7 @@ const Blog = ({ articles, navigation, settings }) => {
         <title>{prismicH.asText(settings.data.name)}</title>
       </Head>
       <Bounded size="widest">
+        <p>Here</p>
         <ul className="grid grid-cols-1 gap-16">
           {articles.map((article) => (
             <Article key={article.id} article={article} />
@@ -101,7 +102,7 @@ const Blog = ({ articles, navigation, settings }) => {
   );
 };
 
-export default Blog;
+export default Posts;
 
 export async function getStaticProps({ previewData }) {
   const client = createClient({ previewData });

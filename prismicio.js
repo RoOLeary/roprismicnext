@@ -24,7 +24,7 @@ export const linkResolver = (doc) => {
   }
 
   if (doc.type === "blog") {
-    return `/blog/${doc.uid}`;
+    return `/posts/${doc.uid}`;
   }
 
   return "/";
