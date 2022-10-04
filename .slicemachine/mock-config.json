@@ -46,7 +46,8 @@
         }
       }
     },
-    "blog": {}
+    "blog": {},
+    "bloglist": {}
   },
   "slices": {
     "Text": {

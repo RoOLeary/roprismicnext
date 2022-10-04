@@ -38,6 +38,9 @@ const getExcerpt = (slices) => {
 };
 
 const Article = ({ article }) => {
+
+  console.log(article);
+
   const featuredImage =
     (prismicH.isFilled.image(article.data.featuredImage) &&
       article.data.featuredImage) ||
@@ -79,7 +82,7 @@ const Article = ({ article }) => {
   );
 };
 
-const Index = ({ articles, navigation, settings }) => {
+const Blog = ({ articles, navigation, settings }) => {
   return (
     <Layout
       withHeaderDivider={false}
@@ -100,7 +103,7 @@ const Index = ({ articles, navigation, settings }) => {
   );
 };
 
-export default Index;
+export default Blog;
 
 export async function getStaticProps({ previewData }) {
   const client = createClient({ previewData });
