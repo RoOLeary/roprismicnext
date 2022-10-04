@@ -39,8 +39,6 @@ const getExcerpt = (slices) => {
 
 const Article = ({ article }) => {
 
-  console.log(article);
-
   const featuredImage =
     (prismicH.isFilled.image(article.data.featuredImage) &&
       article.data.featuredImage) ||

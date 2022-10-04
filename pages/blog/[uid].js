@@ -96,7 +96,7 @@ export default Article;
 export async function getStaticProps({ params, previewData }) {
   const client = createClient({ previewData });
 
-  const article = await client.getByUID("blog", params.slug);
+  const article = await client.getByUID("blog", params.uid);
   const latestArticles = await client.getAllByType("blog", {
     limit: 3,
     orderings: [
