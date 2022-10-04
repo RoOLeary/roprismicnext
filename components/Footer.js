@@ -73,7 +73,7 @@ export const Footer = ({ settings }) => {
           Proudly published using{" "}
           <PrismicLink href="https://prismic.io" className="text-white">
             Prismic
-          </PrismicLink>
+          </PrismicLink> and <a href="https://nextjs.org">NEXT JS</a>
         </div>
       </div>
     </Bounded>
