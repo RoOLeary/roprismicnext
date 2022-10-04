@@ -3,10 +3,10 @@ import { PrismicLink, PrismicText } from "@prismicio/react";
 import { PrismicNextImage } from "@prismicio/next";
 import * as prismicH from "@prismicio/helpers";
 
-import { createClient } from "../../prismicio";
-import { Layout } from "../../components/Layout";
-import { Bounded } from "../../components/Bounded";
-import { Heading } from "../../components/Heading";
+import { createClient } from "../prismicio";
+import { Layout } from "../components/Layout";
+import { Bounded } from "../components/Bounded";
+import { Heading } from "../components/Heading";
 
 const dateFormatter = new Intl.DateTimeFormat("en-US", {
   month: "short",
