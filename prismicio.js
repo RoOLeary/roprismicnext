@@ -18,11 +18,13 @@ export const linkResolver = (doc) => {
   if (doc.type === "page") {
     if (doc.uid === "home") {
       return "/";
-    } else if (doc.uid === "posts") {
+    } 
+    if (doc.uid === "posts") {
       return "/posts";
-    } else {
-      return `/${doc.uid}`;
-    }
+    } 
+  
+    return `/${doc.uid}`;
+  
   }
 
   if (doc.type === "blog") {
