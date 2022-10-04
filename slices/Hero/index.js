@@ -36,6 +36,7 @@ const Hero = ({ slice }) => {
             <PrismicNextImage field={slice.primary.image} layout="responsive" />
           </div>
         )}
+        <h1>OCTAVIUS SHITWAGON</h1>
       </div>
     </Bounded>
   );
