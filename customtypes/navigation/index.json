@@ -26,6 +26,13 @@
                 "placeholder": "Link for navigation item",
                 "select": null
               }
+            },
+            "slug": {
+              "type": "Text",
+              "config": {
+                "label": "slug",
+                "placeholder": ""
+              }
             }
           }
         }

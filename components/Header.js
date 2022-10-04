@@ -1,7 +1,7 @@
 import * as prismicH from "@prismicio/helpers";
 import { PrismicLink, PrismicText } from "@prismicio/react";
 import { PrismicNextImage } from "@prismicio/next";
-
+import Link from 'next/link';
 import { linkResolver } from "../prismicio";
 import { Bounded } from "./Bounded";
 
@@ -27,11 +27,20 @@ export const Header = ({ alternateLanguages = [], navigation, settings }) => {
                 key={prismicH.asText(item.label)}
                 className="font-semibold tracking-tight text-slate-800"
               >
-                <PrismicLink field={item.link}>
+                <PrismicLink field={item.link ? item.link : item.slug}>
                   <PrismicText field={item.label} />
                 </PrismicLink>
               </li>
             ))}
+            <li
+                className="font-semibold tracking-tight text-slate-800"
+              >
+                <Link href={`/posts`}>
+                  <a>
+                    Posts
+                  </a>
+                </Link>
+              </li>
             {alternateLanguages.map((lang) => (
               <li key={lang.lang}>
                 <PrismicLink href={linkResolver(lang)} locale={lang.lang}>
