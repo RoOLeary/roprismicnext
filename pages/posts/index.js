@@ -62,7 +62,7 @@ const Article = ({ article }) => {
         </div>
       </PrismicLink>
       <div className="grid grid-cols-1 gap-3 md:col-span-2">
-        <Heading as="h2">
+        <Heading as="h3">
           <PrismicLink document={article}>
             <PrismicText field={article.data.title} />
           </PrismicLink>
@@ -91,7 +91,6 @@ const Posts = ({ articles, navigation, settings }) => {
         <title>{prismicH.asText(settings.data.name)}</title>
       </Head>
       <Bounded size="widest">
-        <p>Here</p>
         <ul className="grid grid-cols-1 gap-16">
           {articles.map((article) => (
             <Article key={article.id} article={article} />

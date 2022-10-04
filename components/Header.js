@@ -27,7 +27,7 @@ export const Header = ({ alternateLanguages = [], navigation, settings }) => {
                 key={prismicH.asText(item.label)}
                 className="font-semibold tracking-tight text-slate-800"
               >
-                <PrismicLink field={item.link ? item.link : item.slug}>
+                <PrismicLink field={item.link}>
                   <PrismicText field={item.label} />
                 </PrismicLink>
               </li>
