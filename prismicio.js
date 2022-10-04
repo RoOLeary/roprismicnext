@@ -18,6 +18,8 @@ export const linkResolver = (doc) => {
   if (doc.type === "page") {
     if (doc.uid === "home") {
       return "/";
+    } else if (doc.uid === "posts") {
+      return "/posts";
     } else {
       return `/${doc.uid}`;
     }
