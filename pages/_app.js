@@ -4,7 +4,7 @@ import { PrismicPreview } from "@prismicio/next";
 
 import { repositoryName, linkResolver } from "../prismicio";
 
-import "../styles/globals.css";
+import "../styles/globals.scss";
 
 const NextLinkShim = ({ href, children, locale, ...props }) => {
   return (
