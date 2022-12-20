@@ -439,13 +439,13 @@ export interface RepeaterSliceDefaultItem {
     /**
      * Repeater field in *Repeater → Items*
      *
-     * - **Field Type**: Rich Text
+     * - **Field Type**: Title
      * - **Placeholder**: *None*
      * - **API ID Path**: repeater.items[].repeater
      * - **Documentation**: https://prismic.io/docs/core-concepts/rich-text-title
      *
      */
-    repeater: prismicT.RichTextField;
+    repeater: prismicT.TitleField;
 }
 /**
  * Default variation for Repeater Slice

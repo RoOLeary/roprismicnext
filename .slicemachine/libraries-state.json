@@ -316,7 +316,7 @@
                     "label": "Repeater",
                     "placeholder": "",
                     "allowTargetBlank": true,
-                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                    "single": "heading2"
                   }
                 }
               },
@@ -332,8 +332,8 @@
               {
                 "repeater": [
                   {
-                    "type": "paragraph",
-                    "text": "Voluptate minim cupidatat ullamco tempor sint officia quis ex.",
+                    "type": "heading2",
+                    "text": "Recognize",
                     "spans": []
                   }
                 ]
@@ -343,14 +343,14 @@
               "title": [
                 {
                   "type": "heading1",
-                  "text": "Unhappy",
+                  "text": "Getting",
                   "spans": []
                 }
               ],
               "description": [
                 {
                   "type": "paragraph",
-                  "text": "Est commodo sunt in nulla laborum id voluptate id nulla mollit pariatur irure culpa veniam.",
+                  "text": "Tempor magna irure aliquip ullamco magna velit laborum eu ad minim eu est dolor. Minim ex quis eiusmod consequat do sint. Irure eiusmod officia dolor quis ipsum cupidatat aliqua sint fugiat.",
                   "spans": []
                 }
               ]

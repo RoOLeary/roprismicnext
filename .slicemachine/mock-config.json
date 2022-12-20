@@ -131,6 +131,17 @@
         "primary": {}
       }
     },
-    "Repeater": {}
+    "Repeater": {
+      "default": {
+        "items": {
+          "repeater": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    }
   }
 }
