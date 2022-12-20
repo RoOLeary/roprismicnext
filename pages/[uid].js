@@ -7,6 +7,7 @@ import { components } from "../slices";
 import { Layout } from "../components/Layout";
 
 const Page = ({ page, navigation, settings }) => {
+  console.log(page.data.slices);
   return (
     <Layout
       alternateLanguages={page.alternate_languages}

@@ -2,6 +2,8 @@ import React from 'react'
 import { PrismicRichText } from '@prismicio/react'
 
 const Repeater = ({ slice }) => (
+
+  // console.log(slice)
   <section>
     <span className="title">
       {
@@ -14,6 +16,12 @@ const Repeater = ({ slice }) => (
       slice.primary.description ?
       <PrismicRichText field={slice.primary.description}/>
       : <p>start by editing this slice from inside Slice Machine!</p>
+    }
+
+    {
+      slice?.items?.map((item, i) =>
+        <PrismicRichText field={item.repeater} />
+      )
     }
     <style jsx>{`
         section {

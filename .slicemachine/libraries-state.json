@@ -567,7 +567,13 @@
           "fileName": "index",
           "extension": "js"
         },
-        "screenshotPaths": {}
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/ronanoleary/sites/roprismicnxt/.slicemachine/assets/slices/TextWithImage/default/preview.png",
+            "width": 1280,
+            "height": 800
+          }
+        }
       }
     }
   }
