@@ -7,8 +7,18 @@ import { Bounded } from "./Bounded";
 
 const FlagIcon = ({ lang }) => {
   const code = lang.substring(3).toLowerCase();
+ 
+  console.log(code)
+  
+  switch (code) {
+    case 'de' || 'de-de' :
+      return <span className={`fi fi-de`} />;
+      break;
+    default:
+      return <span className={`fi fi-${code}`} />;
+  } 
 
-  return <span className={`fi fi-${code}`} />;
+  
 };
 
 export const Header = ({ alternateLanguages = [], navigation, settings }) => {

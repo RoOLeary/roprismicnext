@@ -19,6 +19,7 @@ export const linkResolver = (doc) => {
     if (doc.uid === "home") {
       return "/";
     } 
+    
     if (doc.uid === "posts") {
       return "/posts";
     } 

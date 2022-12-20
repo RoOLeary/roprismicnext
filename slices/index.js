@@ -2,12 +2,14 @@
 
 import Hero from './Hero';
 import Image from './Image';
+import Repeater from './Repeater';
 import TextWithFeatures from './TextWithFeatures';
 import TextWithImage from './TextWithImage';
 
 export {
 	Hero,
 	Image,
+	Repeater,
 	TextWithFeatures,
 	TextWithImage,
 };
@@ -15,6 +17,7 @@ export {
 export const components = {
 	hero: Hero,
 	image: Image,
+	repeater: Repeater,
 	text_with_features: TextWithFeatures,
 	text_with_image: TextWithImage,
 };
