@@ -309,8 +309,18 @@
                   }
                 }
               },
-              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format",
-              "items": {}
+              "items": {
+                "repeater": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Repeater",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
             }
           ]
         },
@@ -319,20 +329,28 @@
             "variation": "default",
             "version": "sktwi1xtmkfgx8626",
             "items": [
-              {}
+              {
+                "repeater": [
+                  {
+                    "type": "paragraph",
+                    "text": "Voluptate minim cupidatat ullamco tempor sint officia quis ex.",
+                    "spans": []
+                  }
+                ]
+              }
             ],
             "primary": {
               "title": [
                 {
                   "type": "heading1",
-                  "text": "Vessels",
+                  "text": "Unhappy",
                   "spans": []
                 }
               ],
               "description": [
                 {
                   "type": "paragraph",
-                  "text": "Sunt irure consequat consequat mollit ea est amet eiusmod ad sunt fugiat aliquip ipsum pariatur consequat. Tempor reprehenderit nulla ullamco aliqua proident mollit.",
+                  "text": "Est commodo sunt in nulla laborum id voluptate id nulla mollit pariatur irure culpa veniam.",
                   "spans": []
                 }
               ]
