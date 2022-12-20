@@ -37,6 +37,9 @@
             },
             "text_with_image": {
               "type": "SharedSlice"
+            },
+            "repeater": {
+              "type": "SharedSlice"
             }
           }
         }

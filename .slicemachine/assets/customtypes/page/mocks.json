@@ -1,14 +1,23 @@
 {
-  "id": "c72d90b5-8b4f-4326-b01f-1d4b7a2aef16",
-  "uid": "repellat-quisquam-quis",
+  "id": "mock-doc-id",
+  "url": null,
   "type": "page",
+  "href": null,
+  "tags": [],
+  "first_publication_date": "1970-01-01T00:00:01+0000",
+  "last_publication_date": "1970-01-01T00:00:01+0000",
+  "slugs": [],
+  "linked_documents": [],
+  "lang": "en-us",
+  "alternate_languages": [],
   "data": {
     "title": [
       {
         "type": "heading1",
-        "text": "Implement innovative relationships",
+        "text": "Climb",
         "spans": []
       }
-    ]
+    ],
+    "slices": []
   }
 }
