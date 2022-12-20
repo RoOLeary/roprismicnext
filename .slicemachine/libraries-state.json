@@ -362,7 +362,13 @@
           "fileName": "index",
           "extension": "js"
         },
-        "screenshotPaths": {}
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/ronanoleary/sites/roprismicnxt/.slicemachine/assets/slices/Repeater/default/preview.png",
+            "width": 800,
+            "height": 72
+          }
+        }
       },
       "text_with_features": {
         "library": "slices",
